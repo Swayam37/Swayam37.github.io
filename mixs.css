@@ -1,0 +1,121 @@
+body {
+	background-image: url(blur.jpg);
+	background-size: cover;
+}
+
+footer {
+	text-decoration: underline rgba(255,0,0,0.5);
+	border: 5px ridge purple;
+	background-color: rgba(0,255,0,0.2);
+	background-size: cover;
+	width: 250px;
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	
+	font-size: 30px;
+	text-align: left;
+	
+}
+
+
+p {
+	border: 5px groove rgba(0,0,255,0.2);
+	text-decoration: underline purple;
+	background-color: rgba(0,255,0,0.2);
+	font-size: 25px;
+	transition: all 0.5s;
+	font-family: 'Acme', sans-serif;
+	}
+
+p:hover{
+	transform: scale(1.1);
+}
+h1 {
+	text-decoration: underline rgba(255,0,0,0.5);
+	border: 5px ridge purple;
+	background-color: rgba(0,255,0,0.2);
+	background-size: cover;
+	width: 200px;
+	transition: all 0.5s;
+	font-family: 'Acme', sans-serif;
+	animation: shimmy 2s alternate 2;
+}
+h1:hover {
+	transform: scale(1.1);
+}
+
+h2 {
+	text-decoration: underline rgba(255,0,0,0.5);
+	border: 5px ridge purple;
+	background-color: rgba(0,255,0,0.2);
+	background-size: cover;
+	width: 400px;
+	transition: all 0.5s;
+	font-family: 'Acme', sans-serif;
+	animation: shimmy 2s alternate 2;
+
+}
+@keyframes shimmy {
+	0% {
+		transform: translate(0,0);
+	}
+	100% {
+		transform: translate(900px,20px);
+	}
+}
+
+h2:hover {
+	transform: scale(1.1);
+}
+
+h3  {
+	text-decoration: underline rgba(255,0,0,0.5);
+	font-family: 'Acme', sans-serif;
+	border: 5px ridge purple;
+	background-color: rgba(0,255,0,0.2);
+	background-size: cover;
+	width: 200px;
+	transition: all 0.5s;
+	animation: shimmy 2s alternate 2; 
+}
+
+h3:hover {
+	transform: scale(1.1);
+}
+ol{
+	border: 5px groove rgba(0,0,255,0.2);
+	text-decoration: underline purple;
+	background-color: rgba(0,255,0,0.2);
+	font-size: 25px;
+	transition: all 0.5s;
+	font-family: 'Acme', sans-serif;
+	margin-bottom: 5px;
+}
+ol:hover{
+	transform: scale(1.1);
+}
+.hue:hover {
+  transition: all 0.5s;
+}
+
+.hue {
+	transform: scale(0.9);
+	width: 50px;
+	height: 60px;
+	display: inline-block;
+}
+
+li {
+	border: 5px groove rgba(0,0,255,0.2);
+	text-decoration: underline purple;
+	background-color: rgba(0,255,0,0.2);
+	font-size: 25px;
+	transition: all 0.5s;
+	font-family: 'Acme', sans-serif;
+	margin-bottom: 5px;
+}
+
+li:hover{
+	transform: scale(1.1);
+}
+

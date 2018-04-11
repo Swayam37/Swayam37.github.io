@@ -1,0 +1,115 @@
+body {
+	background-image: url(swap.jpg);
+	background-size: cover;
+    
+	margin: 0px;
+}
+
+p  {
+	font-family: 'Roboto Slab', serif;
+	
+	color: purple;
+	font-size: 40px;
+	text-decoration: underline rgba(255,0,0,0.7);
+	font-style: italic;
+	border: 5px groove rgba(0,255,0,0.5);
+	width: 400px;
+	box-shadow: 4px 4px 5px grey;
+	text-align: center;
+    transition: all 1s;	
+    cursor:default; 
+
+}
+
+p:hover {
+	transform: scale(1.1);
+}
+.hue:hover {
+  transition: all 0.5s;
+}
+
+.hue {
+	transform: scale(0.9);
+	width: 50px;
+	height: 60px;
+	display: inline-block;
+}
+
+
+button {
+	
+	
+	width :125px;
+	height: 75px;
+	text-decoration: underline yellow wavy;
+	background-color: rgba(255,0,0,0.5);
+	text-transform: capitalize;
+	font-family: 'Hi Melody', cursive;
+	font-size: 25px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: all 1s;
+}
+
+button:hover {
+ transform: scale(1.1);
+}
+
+div {
+
+display: flex;
+  align-items: bottom;
+  justify-content: center;
+  
+  margin-top: 340px;
+}
+.container{
+	margin: 0px;
+}
+
+.circle, .circle0, .circle1,
+.circle2, .circle3, .circle4,
+.circle5{
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+}
+
+
+.container:hover .circle0,
+.container:hover .circle1,
+.container:hover .circle2,
+.container:hover .circle3,
+.container:hover .circle4,
+.container:hover .circle5 {
+	transform: translateX(200px);
+}
+
+.circle0{
+	background: red;
+	transition: all 1.5s linear;
+}
+
+.circle1{
+	background: salmon;
+	transition: all 1.5s ease;
+}
+
+.circle2{
+	background: lightskyblue;
+	transition: all 1.5s ease-in;
+}
+.circle3{
+	background: khaki;
+	transition: all 1.5s ease-out;
+}
+.circle4{
+	background: green;
+	transition:  all 1.5s ease-in-out;
+}
+.circle5{
+	background: thistle;
+	transition: all 1.5s cubic-bezier(0,1,0.98,0);
+}
+

@@ -1,0 +1,67 @@
+body {
+	margin: 0px;
+	background-image: url(blur.jpg);
+	background-size: cover;
+}
+
+}p {
+  color: #aaa;
+  text-align: center;
+  margin: 2em 0;
+}
+.hue:hover {
+  transition: all 0.5s;
+}
+
+.hue {
+	transform: scale(0.9);
+	width: 50px;
+	height: 60px;
+	display: inline-block;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	animation: pulse 5s infinite;
+} 
+@keyframes pulse{
+	0% {
+		background-image: url(swap.jpg);
+	}
+	100% {
+		background-image: url(g.jpg);
+	}
+}
+
+h1 {
+	 font-family: 'Poor Story', cursive;
+	 font-size: 4em;
+	 border-right: 2px solid pink;
+	 border-bottom: 2px solid pink;
+	 width : 400px; 
+	 text-align: center;
+	 box-shadow: 4px 4px 5px grey;
+	 margin-top: 10px;
+	 background-color: rgba(255,0,0,0.2);
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 0.5s;
+	cursor: pointer;
+
+
+}
+
+	
+
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
